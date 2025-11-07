@@ -33,3 +33,13 @@
 | `TEXT`              | texto largo           | descripción, comentarios |
 | `DATE` / `DATETIME` | fechas y tiempos      | fecha de registro        |
 | `BOOLEAN`           | valores lógicos       | activo/inactivo          |
+
+## Constraints (limitaciones)
+
+| Constraint    | Función                       | Ejemplo                                      |
+| ------------- | ----------------------------- | -------------------------------------------- |
+| `NOT NULL`    | Obliga a tener un valor       | `email VARCHAR(150) NOT NULL`                |
+| `DEFAULT`     | Valor por defecto             | `is_active BOOLEAN DEFAULT TRUE`             |
+| `UNIQUE`      | No permite valores duplicados | `email UNIQUE`                               |
+| `CHECK`       | Valida condiciones            | `CHECK (price > 0)`                          |
+| `FOREIGN KEY` | Vincula tablas                | `FOREIGN KEY (user_id) REFERENCES users(id)` |
