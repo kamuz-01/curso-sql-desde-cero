@@ -72,6 +72,21 @@
 | **ADD CHECK**       | Agrega una validación lógica sobre los datos.                            | `ALTER TABLE products ADD CONSTRAINT chk_price CHECK (price > 0);`                      |
 | **DROP CHECK**      | Quita una validación `CHECK`.                                            | `ALTER TABLE products DROP CHECK chk_price;`                                            |
 
+## Operadores más usados
+
+| Operador      | Significado          | Ejemplo                               |
+| ------------- | -------------------- | ------------------------------------- |
+| `=`           | Igual                | `WHERE name = 'Juan'`                 |
+| `<`           | Menor que            | `WHERE price < 1000`                  |
+| `>`           | Mayor que            | `WHERE stock > 10`                    |
+| `<=`          | Menor o igual        | `WHERE stock <= 5`                    |
+| `>=`          | Mayor o igual        | `WHERE price >= 20000`                |
+| `<>` o `!=`   | Distinto             | `WHERE id <> 1`                       |
+| `BETWEEN`     | Entre un rango       | `WHERE price BETWEEN 10000 AND 50000` |
+| `LIKE`        | Coincidencia parcial | `WHERE name LIKE '%notebook%'`        |
+| `IN`          | En un conjunto       | `WHERE id IN (1, 2, 3)`               |
+| `IS NULL`     | Valor nulo           | `WHERE phone IS NULL`                 |
+| `IS NOT NULL` | Valor no nulo        | `WHERE phone IS NOT NULL`             |
 
 
 ## POSTGRESQL
@@ -89,6 +104,7 @@
 | **Puerto**     | 3306             |
 | **Usuario**    | root             |
 | **Contraseña** | *(sin password)* |
+
 
 
 
