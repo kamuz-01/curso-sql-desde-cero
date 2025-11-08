@@ -44,6 +44,18 @@
 | `CHECK`       | Valida condiciones            | `CHECK (price > 0)`                          |
 | `FOREIGN KEY` | Vincula tablas                | `FOREIGN KEY (user_id) REFERENCES users(id)` |
 
+## Atributos de Columna 
+
+| Atributo                         | Función                                                                                                                                                    | Ejemplo                                                             |
+| -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| **AUTO_INCREMENT**               | Genera automáticamente un número consecutivo por cada fila nueva. Solo puede haber uno por tabla y debe estar asociado a una **PRIMARY KEY** o **UNIQUE**. | `id INT AUTO_INCREMENT PRIMARY KEY`                                 |
+| **DEFAULT**                      | Asigna un valor automático si no se especifica otro. Puede usar valores fijos o funciones.                                                                 | `created_at DATE DEFAULT (CURRENT_DATE)`                            |
+| **COMMENT**                      | Agrega una descripción interna sobre la columna (no afecta los datos).                                                                                     | `price DECIMAL(10,2) COMMENT 'Precio en USD'`                       |
+| **GENERATED / STORED / VIRTUAL** | Crea una columna calculada a partir de otras. En MySQL 5.7+ se usa `GENERATED ALWAYS AS (...)`.                                                            | `total DECIMAL(10,2) GENERATED ALWAYS AS (price * quantity) STORED` |
+| **CHARACTER SET / COLLATE**      | Define la codificación y reglas de comparación para texto.                                                                                                 | `name VARCHAR(100) CHARACTER SET utf8mb4`                           |
+| **ZEROFILL**                     | Rellena con ceros a la izquierda los números enteros. (poco usado hoy)                                                                                     | `code INT(5) ZEROFILL`                                              |
+
+
 ## POSTGRESQL
 
 | Parámetro             | Valor            |
@@ -59,4 +71,5 @@
 | **Puerto**     | 3306             |
 | **Usuario**    | root             |
 | **Contraseña** | *(sin password)* |
+
 
