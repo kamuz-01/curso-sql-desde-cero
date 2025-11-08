@@ -1,6 +1,6 @@
 ### INSERT y SELECT en MySQL – Ejemplos completos y explicación
 
-´´´sql
+```sql
 
 DESCRIBE users;
 DESCRIBE products;
@@ -36,7 +36,7 @@ SELECT * FROM orders;
 
 SHOW tables;
 
-´´´
+```
 
 Estos comandos te permiten **insertar registros en tus tablas** y luego **consultar los datos almacenados**. A continuación, te muestro cómo se aplican en las tablas `users`, `products` y `orders`.
 
