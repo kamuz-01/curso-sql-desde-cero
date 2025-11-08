@@ -88,6 +88,17 @@
 | `IS NULL`     | Valor nulo           | `WHERE phone IS NULL`                 |
 | `IS NOT NULL` | Valor no nulo        | `WHERE phone IS NOT NULL`             |
 
+## FUNCIONES BASICAS
+
+| Función   | Descripción            | Ejemplo      |
+| --------- | ---------------------- | ------------ |
+| `COUNT()` | Cuenta registros       | `COUNT(*)`   |
+| `SUM()`   | Suma valores numéricos | `SUM(price)` |
+| `AVG()`   | Promedio               | `AVG(price)` |
+| `MIN()`   | Valor mínimo           | `MIN(price)` |
+| `MAX()`   | Valor máximo           | `MAX(price)` |
+
+
 
 ## POSTGRESQL
 
@@ -104,6 +115,7 @@
 | **Puerto**     | 3306             |
 | **Usuario**    | root             |
 | **Contraseña** | *(sin password)* |
+
 
 
 
