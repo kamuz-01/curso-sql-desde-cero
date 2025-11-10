@@ -1,18 +1,47 @@
-# Instalaciones necesarias para curso de SQL:
+# Curso de SQL desde Cero
 
- - [DBNGIN](https://dbngin.com/)
- - [TABLE PLUS](https://tableplus.com/)
- - [DOCKER](https://www.docker.com/get-started/)
+## Link al video: 
+Aún no disponible
 
+## Indice de secciones:
+01 - [Instalaciones necesarias](instalaciones-necesarias.md)
+02 - [Crear y eliminar db y tablas](create-drop-db-table.md)
+03 - [Alter table](alter-table.md)
+04 - [Insertar información](insert-into-select.md)
+05 - [Actualizar, eliminar y truncar tablas](update-delete-truncate.md)
+06 - [Select (where, order by, etc)](select-where-order.md)
+07 - [Funciones de agregación](funciones-agregacion.md)
+08 - [Join e inner join](inner-join.md)
+09 - [Left & Right Join](left-right-join.md)
+10 - [Subconsultas, group by, having](subconsultas-group-having-coalesce.md)
+11 - [Buenas prácticas](buenas-practicas.md)
 
-## Utilizaremos en la práctica avanzada:
- - [GOOGLE CHROME (NAVEGADOR)](https://www.google.com/intl/es_es/chrome/)
- - [VISUAL STUDIO CODE (Editor Código)](https://code.visualstudio.com/download)
- - [GIT (manejador de versiones)](https://git-scm.com/)
- - [POSTMAN](https://www.postman.com/downloads/)
+## Ejemplos realistas:
+- [Ejemplo Cine](ejemplo1-cine.sql)
+- [Ejemplo Videojuegos](ejemplo2-videojuegos.sql)
+- [Ejemplo Restaurants](ejemplo3-restaurants.sql)
 
-## Playground sin instalaciones para practicar
- - [SQL PLAYGROUND](https://runsql.com/r)
+## Guías con imágenes:
+- [Guía paso a paso](Guia/)
+  - [Imagen 1](Guia/01.jpg)
+  - [Imagen 2](Guia/02.jpg)
+  - [Imagen 3](Guia/03.jpg)
+  - [Imagen 4](Guia/04.jpg)
+  - [Imagen 5](Guia/05.jpg)
+  - [Imagen 6](Guia/06.jpg)
+  - [Imagen 7](Guia/07.jpg)
+
+## Cheatsheet Join:
+- [Tipos de Join](Tipos-Join/)
+  - [Join Diagram 1](Tipos-Join/01.jpg)
+  - [Join Diagram 2](Tipos-Join/02.jpg)
+  - [Join Diagram 3](Tipos-Join/03.jpg)
+
+## Docker Compose ejemplos:
+- [MySQL sin variable de entorno](docker-compose/MySQL/docker-compose.yaml)
+- [MySQL con variable de entorno](docker-compose/MySQLenv/docker-compose.yaml)
+- [PostgreSQL sin variable de entorno](docker-compose/Postgres/docker-compose.yaml)
+- [PostgreSQL con variable de entorno](docker-compose/Postgresenv/docker-compose.yaml)
 
 ## Familia de comandos SQL
 
