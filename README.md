@@ -3,18 +3,18 @@
 ## Link al video: 
 Aún no disponible
 
-## Indice de secciones:
-01 - [Instalaciones necesarias](instalaciones-necesarias.md)
-02 - [Crear y eliminar db y tablas](create-drop-db-table.md)
-03 - [Alter table](alter-table.md)
-04 - [Insertar información](insert-into-select.md)
-05 - [Actualizar, eliminar y truncar tablas](update-delete-truncate.md)
-06 - [Select (where, order by, etc)](select-where-order.md)
-07 - [Funciones de agregación](funciones-agregacion.md)
-08 - [Join e inner join](inner-join.md)
-09 - [Left & Right Join](left-right-join.md)
-10 - [Subconsultas, group by, having](subconsultas-group-having-coalesce.md)
-11 - [Buenas prácticas](buenas-practicas.md)
+## Índice de secciones:
+1. [Instalaciones necesarias](instalaciones-necesarias.md)
+2. [Crear y eliminar db y tablas](create-drop-db-table.md)
+3. [Alter table](alter-table.md)
+4. [Insertar información](insert-into-select.md)
+5. [Actualizar, eliminar y truncar tablas](update-delete-truncate.md)
+6. [Select (where, order by, etc)](select-where-order.md)
+7. [Funciones de agregación](funciones-agregacion.md)
+8. [Join e inner join](inner-join.md)
+9. [Left & Right Join](left-right-join.md)
+10. [Subconsultas, group by, having](subconsultas-group-having-coalesce.md)
+11. [Buenas prácticas](buenas-practicas.md)
 
 ## Ejemplos realistas:
 - [Ejemplo Cine](ejemplo1-cine.sql)
