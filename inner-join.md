@@ -37,6 +37,16 @@ El comando `INNER JOIN` se utiliza para **combinar datos de dos o más tablas** 
 
 ---
 
+## JOINS
+
+| Forma completa        | Forma abreviada |
+|-----------------------|-----------------|
+| INNER JOIN            | JOIN            |
+| LEFT OUTER JOIN       | LEFT JOIN       |
+| RIGHT OUTER JOIN      | RIGHT JOIN      |
+
+---
+
 #### 1. Unir usuarios con sus pedidos
 
 ```sql

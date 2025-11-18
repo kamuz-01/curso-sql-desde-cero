@@ -36,6 +36,7 @@ Aún no disponible
   - [Join Diagram 1](Tipos-Join/01.jpg)
   - [Join Diagram 2](Tipos-Join/02.jpg)
   - [Join Diagram 3](Tipos-Join/03.jpg)
+  - [Join Diagram 4](Tipos-Join/04.jpg)
 
 ## Docker Compose ejemplos:
 - [MySQL sin variable de entorno](docker-compose/MySQL/docker-compose.yaml)
@@ -127,6 +128,14 @@ Aún no disponible
 | `MIN()`   | Valor mínimo           | `MIN(price)` |
 | `MAX()`   | Valor máximo           | `MAX(price)` |
 
+
+## JOINS
+
+| Forma completa        | Forma abreviada |
+|-----------------------|-----------------|
+| INNER JOIN            | JOIN            |
+| LEFT OUTER JOIN       | LEFT JOIN       |
+| RIGHT OUTER JOIN      | RIGHT JOIN      |
 
 
 ## POSTGRESQL

@@ -39,6 +39,16 @@ En SQL, los **JOINs** permiten combinar datos de distintas tablas relacionadas. 
 
 ---
 
+## JOINS
+
+| Forma completa        | Forma abreviada |
+|-----------------------|-----------------|
+| INNER JOIN            | JOIN            |
+| LEFT OUTER JOIN       | LEFT JOIN       |
+| RIGHT OUTER JOIN      | RIGHT JOIN      |
+
+---
+
 #### 1. LEFT JOIN – mostrar todos los usuarios y sus pedidos (si existen)
 
 ```sql
