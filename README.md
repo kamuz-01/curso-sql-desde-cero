@@ -1,7 +1,8 @@
 # Curso de SQL desde Cero
 
 ## Link al video: 
-Aún no disponible
+https://youtu.be/Fca_kWJJXvo
+
 
 ## Índice de secciones:
 1. [Instalaciones necesarias](instalaciones-necesarias.md)
@@ -153,6 +154,7 @@ Aún no disponible
 | **Puerto**     | 3306             |
 | **Usuario**    | root             |
 | **Contraseña** | *(sin password)* |
+
 
 
 
