@@ -95,6 +95,7 @@ https://youtu.be/Fca_kWJJXvo
 | **DROP COLUMN**     | Elimina una columna existente.                                           | `ALTER TABLE users DROP COLUMN age;`                                                    |
 | **RENAME COLUMN**   | Cambia el nombre de una columna.                                         | `ALTER TABLE users RENAME COLUMN name TO full_name;`                                    |
 | **MODIFY COLUMN**   | Cambia el tipo o las propiedades de una columna (sin cambiar el nombre). | `ALTER TABLE users MODIFY COLUMN full_name VARCHAR(150) NOT NULL;`                      |
+| **MOVE COLUMN**     | Mover una columna para otra posición dentro de una tabla                 | `ALTER TABLE users CHANGE `email` `email` varchar(255) NOT NULL AFTER `lastname;`       |
 | **ADD CONSTRAINT**  | Crea una nueva constraint (clave foránea, única, etc.).                  | `ALTER TABLE orders ADD CONSTRAINT fk_user FOREIGN KEY (user_id) REFERENCES users(id);` |
 | **DROP CONSTRAINT** | Elimina una constraint existente (MySQL 8+).                             | `ALTER TABLE orders DROP CONSTRAINT fk_user;`                                           |
 | **RENAME TO**       | Cambia el nombre de la tabla.                                            | `ALTER TABLE users RENAME TO customers;`                                                |
@@ -154,6 +155,7 @@ https://youtu.be/Fca_kWJJXvo
 | **Puerto**     | 3306             |
 | **Usuario**    | root             |
 | **Contraseña** | *(sin password)* |
+
 
 
 
